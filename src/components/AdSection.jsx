@@ -1,4 +1,4 @@
-function AdSection() {
+function Adsection() {
     return (
       <div className="bg-white shadow-lg p-4 w-fit">
         <h3 className="text-lg font-bold text-gray-800">Sponsored Ad</h3>
@@ -8,5 +8,5 @@ function AdSection() {
     );
   }
   
-  export default AdSection;
+  export default Adsection;
   

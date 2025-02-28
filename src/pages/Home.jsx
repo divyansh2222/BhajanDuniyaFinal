@@ -4,7 +4,8 @@ import Sidebar from "../components/Sidebar"; // ✅ Import Sidebar
 
 import Box from "../components/Box";
 import Loader from "../components/Loader";
-import AdSection from "../components/Adsection";
+import Adsection from "../components/Adsection";
+
 
 function Home() {
   const { data, searchQuery } = useBhajan();
@@ -100,7 +101,7 @@ function Home() {
 
         {/* Ad Section (Mobile) */}
         <aside className="lg:hidden mt-6">
-          <AdSection />
+          <Adsection/>
         </aside>
       </div>
     </div>
