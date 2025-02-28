@@ -9,7 +9,7 @@ export const BhajanProvider = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState(""); // 🔍 Search state
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/songs")
+    fetch("https://backend-eight-ruddy-59.vercel.app/api/songs")
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Error fetching data:", error));
