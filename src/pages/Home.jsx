@@ -4,7 +4,8 @@ import Sidebar from "../components/Sidebar"; // ✅ Import Sidebar
 
 import Box from "../components/Box";
 import Loader from "../components/Loader";
-import Adsection from "../components/Adsection";
+import AdSection1 from "../components/AdSection1";
+
 
 
 function Home() {
@@ -101,7 +102,7 @@ function Home() {
 
         {/* Ad Section (Mobile) */}
         <aside className="lg:hidden mt-6">
-          <Adsection/>
+         <AdSection1/>
         </aside>
       </div>
     </div>
