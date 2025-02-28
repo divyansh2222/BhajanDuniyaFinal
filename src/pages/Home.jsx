@@ -67,7 +67,7 @@ function Home() {
 
           {/* Ad Section (Desktop) */}
           <aside className="lg:block hidden">
-            <AdSection />
+            <AdSection1 />
           </aside>
         </div>
 
