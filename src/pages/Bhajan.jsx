@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom"; // Added useNavigate
 import { useEffect } from "react";
 import AdSection2 from "../components/AdSection2";
-import AdSection3 from "../components/AdSection3";
+
 import { useBhajan } from "../context/BhajanContext";
 import RelatedSongs from "../components/RelatedSongs";
 import YoutubeVideo from "../components/YoutubeVideo";
@@ -81,9 +81,9 @@ function Bhajan() {
       </div>
 
       {/* Second Ad Section */}
-      <div className="my-4">
+      {/* <div className="my-4">
         <AdSection3 />
-      </div>
+      </div> */}
 
       {/* Download Button */}
       <div className="text-center">

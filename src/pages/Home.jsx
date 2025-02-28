@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useBhajan } from "../context/BhajanContext";
 import Sidebar from "../components/Sidebar"; // ✅ Import Sidebar
-import AdSection from "../components/AdSection";
+
 import Box from "../components/Box";
 import Loader from "../components/Loader";
+import AdSection from "../components/Adsection";
 
 function Home() {
   const { data, searchQuery } = useBhajan();
